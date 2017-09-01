@@ -6,6 +6,15 @@
 //  Copyright © 2017 c3_development. All rights reserved.
 //
 
+
+/**
+ * Problem Statement
+ * Dn = n(Dn-1 + Dn-2) for n > 1
+ * D0 = 1
+ * D1 = 2
+ */
+
+
 #include <iostream>
 
 int recursiveEquation(int n) {
