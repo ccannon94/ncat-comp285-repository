@@ -8,18 +8,6 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    int n = 0;
-    std::cout << "Enter your n value: \n";
-    std::cin >> n;
-    
-    recursiveEquation(n);
-    
-    std::cin >> String thing;
-    
-    return 0;
-}
-
 int recursiveEquation(int n) {
     int Dn = 0;
     
@@ -39,3 +27,18 @@ int recursiveEquation(int n) {
     
     return Dn;
 }
+
+int main(int argc, const char * argv[]) {
+    int n = 0;
+    std::cout << "Enter your n value: \n";
+    std::cin >> n;
+    
+    int Dn = recursiveEquation(n);
+    
+    std::cout<<"Dn = "<<Dn;
+    std::string endInput;
+    std::cin >> endInput;
+    
+    return 0;
+}
+
