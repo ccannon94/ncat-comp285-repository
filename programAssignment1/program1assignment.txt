@@ -1,0 +1,94 @@
+First Programming Assignment
+Due  9-22-17 at 11PM.
+
+0. Modify the postfix program post.cpp to handle both subtraction and
+division:
+
+Sample input:
+
+./a.out 4 10 - 6 x 12 /
+
+Sample output:
+
+-3
+
+Your program should be named 0.cpp and placed in your pgm directory.
+
+
+1. Write a program to fill in a two-dimensional array of boolean values by
+setting a[i][j] to 1 if the greatest common divisor of i and j is 1.
+Else if the greatest common divisor is not 1, then set a[i][j] to 0.
+
+Sample Input:
+ ./a.out 6
+
+Sample Output:
+
+0 0 0 0 0 0
+0 1 1 1 1 1
+0 1 0 1 0 1
+0 1 1 0 1 1
+0 1 0 1 0 1
+0 1 1 1 1 0
+
+Place this program in your pgm directory and call it 1.cpp.
+
+2. Write a program to solve the Josephus problem, with the following
+modification:
+
+Sample Input:
+
+./a.out n m p
+
+where n is the number of players and m is the count used for every odd
+turn while p is the count used for every even turn.
+
+
+./a.out 5 2 3
+
+
+Sample Output:
+
+Round 1:
+
+1 -> 3 -> 4 -> 5
+
+Round 2:
+
+1 -> 3 -> 4
+
+Round 3:
+
+1 -> 4
+
+Round 4:
+
+1
+
+Winner is 1.
+
+Place this program in your pgm directory and name it 2.cpp
+
+3. When is a graph a tree? Write a program that will read from a file
+specified on the command line and determine from the graph's adjacency
+matrix whether or not it is a tree.
+
+Example:
+
+./a.out graph.txt
+
+Output:
+
+The graph is a tree!
+
+Contents of graph.txt will be something like this:
+
+5
+0 1 0 0 0
+1 0 1 1 1
+0 1 0 0 0
+0 1 0 0 0
+0 1 0 0 0
+
+To be graded, your program must be in your pgm
+and named precisely as 3.cpp.
