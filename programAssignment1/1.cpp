@@ -1,6 +1,11 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
+//declare functions here because c++
+bool gcdIsOne(int a, int b);
+
 int main(int argc, char *argv[])
 {
   int dimension;
@@ -15,7 +20,14 @@ int main(int argc, char *argv[])
   {
     for(int j = 0; j < dimension; j++)
     {
-      
+
     }
   }
+
+  std::cout << gcdIsOne(1, 1) << std::endl;
+}
+
+bool gcdIsOne(int a, int b)
+{
+    return true;
 }
