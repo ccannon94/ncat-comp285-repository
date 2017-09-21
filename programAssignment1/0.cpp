@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 		if(a[i] == '*')
 			save.push(save.pop() * save.pop());
 		if(a[i] == '-')
-			save.push((-1)*save.pop() + save.pop());
+			save.push((-1)*save.pop() - save.pop());
 		if(a[i] == '/')
 		{
 			div = save.pop();
