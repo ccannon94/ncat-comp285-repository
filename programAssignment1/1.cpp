@@ -4,7 +4,7 @@
 using namespace std;
 
 //declare functions here because c++
-bool gcdIsOne(int a, int b);
+int findGcd(int a, int b);
 
 int main(int argc, char *argv[])
 {
@@ -20,14 +20,20 @@ int main(int argc, char *argv[])
   {
     for(int j = 0; j < dimension; j++)
     {
+      if(findGcd(i,j) == 1)
+        gcd[i][j] = true;
+      else
+        gcd[i][j] = false;
 
+      std::cout << gcd[i][j] << " ";
     }
+    std::cout << std::endl;
   }
 
-  std::cout << gcdIsOne(1, 1) << std::endl;
 }
 
-bool gcdIsOne(int a, int b)
+int findGcd(int a, int b)
 {
-    return true;
+  if(b == 0) return a;
+  return findGcd(b, a%b);
 }
