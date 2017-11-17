@@ -123,6 +123,114 @@ programAssignment2/fast:
 	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/build
 .PHONY : programAssignment2/fast
 
+4.cpp.o: 4.cpp.cpp.o
+
+.PHONY : 4.cpp.o
+
+# target to build an object file
+4.cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/4.cpp.cpp.o
+.PHONY : 4.cpp.cpp.o
+
+4.cpp.i: 4.cpp.cpp.i
+
+.PHONY : 4.cpp.i
+
+# target to preprocess a source file
+4.cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/4.cpp.cpp.i
+.PHONY : 4.cpp.cpp.i
+
+4.cpp.s: 4.cpp.cpp.s
+
+.PHONY : 4.cpp.s
+
+# target to generate assembly for a file
+4.cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/4.cpp.cpp.s
+.PHONY : 4.cpp.cpp.s
+
+5.cpp.o: 5.cpp.cpp.o
+
+.PHONY : 5.cpp.o
+
+# target to build an object file
+5.cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/5.cpp.cpp.o
+.PHONY : 5.cpp.cpp.o
+
+5.cpp.i: 5.cpp.cpp.i
+
+.PHONY : 5.cpp.i
+
+# target to preprocess a source file
+5.cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/5.cpp.cpp.i
+.PHONY : 5.cpp.cpp.i
+
+5.cpp.s: 5.cpp.cpp.s
+
+.PHONY : 5.cpp.s
+
+# target to generate assembly for a file
+5.cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/5.cpp.cpp.s
+.PHONY : 5.cpp.cpp.s
+
+6.cpp.o: 6.cpp.cpp.o
+
+.PHONY : 6.cpp.o
+
+# target to build an object file
+6.cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/6.cpp.cpp.o
+.PHONY : 6.cpp.cpp.o
+
+6.cpp.i: 6.cpp.cpp.i
+
+.PHONY : 6.cpp.i
+
+# target to preprocess a source file
+6.cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/6.cpp.cpp.i
+.PHONY : 6.cpp.cpp.i
+
+6.cpp.s: 6.cpp.cpp.s
+
+.PHONY : 6.cpp.s
+
+# target to generate assembly for a file
+6.cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/6.cpp.cpp.s
+.PHONY : 6.cpp.cpp.s
+
+7.cpp.o: 7.cpp.cpp.o
+
+.PHONY : 7.cpp.o
+
+# target to build an object file
+7.cpp.cpp.o:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/7.cpp.cpp.o
+.PHONY : 7.cpp.cpp.o
+
+7.cpp.i: 7.cpp.cpp.i
+
+.PHONY : 7.cpp.i
+
+# target to preprocess a source file
+7.cpp.cpp.i:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/7.cpp.cpp.i
+.PHONY : 7.cpp.cpp.i
+
+7.cpp.s: 7.cpp.cpp.s
+
+.PHONY : 7.cpp.s
+
+# target to generate assembly for a file
+7.cpp.cpp.s:
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/7.cpp.cpp.s
+.PHONY : 7.cpp.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +267,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... programAssignment2"
+	@echo "... 4.cpp.o"
+	@echo "... 4.cpp.i"
+	@echo "... 4.cpp.s"
+	@echo "... 5.cpp.o"
+	@echo "... 5.cpp.i"
+	@echo "... 5.cpp.s"
+	@echo "... 6.cpp.o"
+	@echo "... 6.cpp.i"
+	@echo "... 6.cpp.s"
+	@echo "... 7.cpp.o"
+	@echo "... 7.cpp.i"
+	@echo "... 7.cpp.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

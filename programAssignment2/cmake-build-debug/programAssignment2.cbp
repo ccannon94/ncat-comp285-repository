@@ -80,6 +80,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/4.cpp.cpp">
+			<Option target="programAssignment2"/>
+		</Unit>
+		<Unit filename="/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/5.cpp.cpp">
+			<Option target="programAssignment2"/>
+		</Unit>
+		<Unit filename="/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/6.cpp.cpp">
+			<Option target="programAssignment2"/>
+		</Unit>
+		<Unit filename="/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/7.cpp.cpp">
+			<Option target="programAssignment2"/>
+		</Unit>
 		<Unit filename="/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/main.cpp">
 			<Option target="programAssignment2"/>
 		</Unit>

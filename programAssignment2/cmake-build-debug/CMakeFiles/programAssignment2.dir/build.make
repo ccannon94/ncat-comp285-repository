@@ -81,17 +81,121 @@ CMakeFiles/programAssignment2.dir/main.cpp.o.provides: CMakeFiles/programAssignm
 CMakeFiles/programAssignment2.dir/main.cpp.o.provides.build: CMakeFiles/programAssignment2.dir/main.cpp.o
 
 
+CMakeFiles/programAssignment2.dir/4.cpp.cpp.o: CMakeFiles/programAssignment2.dir/flags.make
+CMakeFiles/programAssignment2.dir/4.cpp.cpp.o: ../4.cpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/programAssignment2.dir/4.cpp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programAssignment2.dir/4.cpp.cpp.o -c /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/4.cpp.cpp
+
+CMakeFiles/programAssignment2.dir/4.cpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/programAssignment2.dir/4.cpp.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/4.cpp.cpp > CMakeFiles/programAssignment2.dir/4.cpp.cpp.i
+
+CMakeFiles/programAssignment2.dir/4.cpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/programAssignment2.dir/4.cpp.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/4.cpp.cpp -o CMakeFiles/programAssignment2.dir/4.cpp.cpp.s
+
+CMakeFiles/programAssignment2.dir/4.cpp.cpp.o.requires:
+
+.PHONY : CMakeFiles/programAssignment2.dir/4.cpp.cpp.o.requires
+
+CMakeFiles/programAssignment2.dir/4.cpp.cpp.o.provides: CMakeFiles/programAssignment2.dir/4.cpp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/4.cpp.cpp.o.provides.build
+.PHONY : CMakeFiles/programAssignment2.dir/4.cpp.cpp.o.provides
+
+CMakeFiles/programAssignment2.dir/4.cpp.cpp.o.provides.build: CMakeFiles/programAssignment2.dir/4.cpp.cpp.o
+
+
+CMakeFiles/programAssignment2.dir/5.cpp.cpp.o: CMakeFiles/programAssignment2.dir/flags.make
+CMakeFiles/programAssignment2.dir/5.cpp.cpp.o: ../5.cpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/programAssignment2.dir/5.cpp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programAssignment2.dir/5.cpp.cpp.o -c /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/5.cpp.cpp
+
+CMakeFiles/programAssignment2.dir/5.cpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/programAssignment2.dir/5.cpp.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/5.cpp.cpp > CMakeFiles/programAssignment2.dir/5.cpp.cpp.i
+
+CMakeFiles/programAssignment2.dir/5.cpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/programAssignment2.dir/5.cpp.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/5.cpp.cpp -o CMakeFiles/programAssignment2.dir/5.cpp.cpp.s
+
+CMakeFiles/programAssignment2.dir/5.cpp.cpp.o.requires:
+
+.PHONY : CMakeFiles/programAssignment2.dir/5.cpp.cpp.o.requires
+
+CMakeFiles/programAssignment2.dir/5.cpp.cpp.o.provides: CMakeFiles/programAssignment2.dir/5.cpp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/5.cpp.cpp.o.provides.build
+.PHONY : CMakeFiles/programAssignment2.dir/5.cpp.cpp.o.provides
+
+CMakeFiles/programAssignment2.dir/5.cpp.cpp.o.provides.build: CMakeFiles/programAssignment2.dir/5.cpp.cpp.o
+
+
+CMakeFiles/programAssignment2.dir/6.cpp.cpp.o: CMakeFiles/programAssignment2.dir/flags.make
+CMakeFiles/programAssignment2.dir/6.cpp.cpp.o: ../6.cpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/programAssignment2.dir/6.cpp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programAssignment2.dir/6.cpp.cpp.o -c /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/6.cpp.cpp
+
+CMakeFiles/programAssignment2.dir/6.cpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/programAssignment2.dir/6.cpp.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/6.cpp.cpp > CMakeFiles/programAssignment2.dir/6.cpp.cpp.i
+
+CMakeFiles/programAssignment2.dir/6.cpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/programAssignment2.dir/6.cpp.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/6.cpp.cpp -o CMakeFiles/programAssignment2.dir/6.cpp.cpp.s
+
+CMakeFiles/programAssignment2.dir/6.cpp.cpp.o.requires:
+
+.PHONY : CMakeFiles/programAssignment2.dir/6.cpp.cpp.o.requires
+
+CMakeFiles/programAssignment2.dir/6.cpp.cpp.o.provides: CMakeFiles/programAssignment2.dir/6.cpp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/6.cpp.cpp.o.provides.build
+.PHONY : CMakeFiles/programAssignment2.dir/6.cpp.cpp.o.provides
+
+CMakeFiles/programAssignment2.dir/6.cpp.cpp.o.provides.build: CMakeFiles/programAssignment2.dir/6.cpp.cpp.o
+
+
+CMakeFiles/programAssignment2.dir/7.cpp.cpp.o: CMakeFiles/programAssignment2.dir/flags.make
+CMakeFiles/programAssignment2.dir/7.cpp.cpp.o: ../7.cpp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/programAssignment2.dir/7.cpp.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/programAssignment2.dir/7.cpp.cpp.o -c /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/7.cpp.cpp
+
+CMakeFiles/programAssignment2.dir/7.cpp.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/programAssignment2.dir/7.cpp.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/7.cpp.cpp > CMakeFiles/programAssignment2.dir/7.cpp.cpp.i
+
+CMakeFiles/programAssignment2.dir/7.cpp.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/programAssignment2.dir/7.cpp.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/7.cpp.cpp -o CMakeFiles/programAssignment2.dir/7.cpp.cpp.s
+
+CMakeFiles/programAssignment2.dir/7.cpp.cpp.o.requires:
+
+.PHONY : CMakeFiles/programAssignment2.dir/7.cpp.cpp.o.requires
+
+CMakeFiles/programAssignment2.dir/7.cpp.cpp.o.provides: CMakeFiles/programAssignment2.dir/7.cpp.cpp.o.requires
+	$(MAKE) -f CMakeFiles/programAssignment2.dir/build.make CMakeFiles/programAssignment2.dir/7.cpp.cpp.o.provides.build
+.PHONY : CMakeFiles/programAssignment2.dir/7.cpp.cpp.o.provides
+
+CMakeFiles/programAssignment2.dir/7.cpp.cpp.o.provides.build: CMakeFiles/programAssignment2.dir/7.cpp.cpp.o
+
+
 # Object files for target programAssignment2
 programAssignment2_OBJECTS = \
-"CMakeFiles/programAssignment2.dir/main.cpp.o"
+"CMakeFiles/programAssignment2.dir/main.cpp.o" \
+"CMakeFiles/programAssignment2.dir/4.cpp.cpp.o" \
+"CMakeFiles/programAssignment2.dir/5.cpp.cpp.o" \
+"CMakeFiles/programAssignment2.dir/6.cpp.cpp.o" \
+"CMakeFiles/programAssignment2.dir/7.cpp.cpp.o"
 
 # External object files for target programAssignment2
 programAssignment2_EXTERNAL_OBJECTS =
 
 programAssignment2: CMakeFiles/programAssignment2.dir/main.cpp.o
+programAssignment2: CMakeFiles/programAssignment2.dir/4.cpp.cpp.o
+programAssignment2: CMakeFiles/programAssignment2.dir/5.cpp.cpp.o
+programAssignment2: CMakeFiles/programAssignment2.dir/6.cpp.cpp.o
+programAssignment2: CMakeFiles/programAssignment2.dir/7.cpp.cpp.o
 programAssignment2: CMakeFiles/programAssignment2.dir/build.make
 programAssignment2: CMakeFiles/programAssignment2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable programAssignment2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/CCannon/Documents/development/ncat-comp285-repository/programAssignment2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable programAssignment2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/programAssignment2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +204,10 @@ CMakeFiles/programAssignment2.dir/build: programAssignment2
 .PHONY : CMakeFiles/programAssignment2.dir/build
 
 CMakeFiles/programAssignment2.dir/requires: CMakeFiles/programAssignment2.dir/main.cpp.o.requires
+CMakeFiles/programAssignment2.dir/requires: CMakeFiles/programAssignment2.dir/4.cpp.cpp.o.requires
+CMakeFiles/programAssignment2.dir/requires: CMakeFiles/programAssignment2.dir/5.cpp.cpp.o.requires
+CMakeFiles/programAssignment2.dir/requires: CMakeFiles/programAssignment2.dir/6.cpp.cpp.o.requires
+CMakeFiles/programAssignment2.dir/requires: CMakeFiles/programAssignment2.dir/7.cpp.cpp.o.requires
 
 .PHONY : CMakeFiles/programAssignment2.dir/requires
 
