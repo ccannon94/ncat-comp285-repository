@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4.cpp.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="4.cpp.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4.cpp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="450">
+              <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -76,12 +76,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7.cpp.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="7.cpp.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/7.cpp.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="1305">
+              <caret line="87" column="1" lean-forward="false" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+              <folding>
+                <element signature="e#413#432#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,9 +93,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/4.cpp.cpp" />
         <option value="$PROJECT_DIR$/5.cpp.cpp" />
         <option value="$PROJECT_DIR$/6.cpp.cpp" />
+        <option value="$PROJECT_DIR$/4.cpp.cpp" />
         <option value="$PROJECT_DIR$/7.cpp.cpp" />
       </list>
     </option>
@@ -329,12 +331,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510952246169</updated>
-      <workItem from="1510952248260" duration="326000" />
+      <workItem from="1510952248260" duration="420000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="326000" />
+    <option name="totallyTimeSpent" value="420000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
@@ -394,6 +396,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/4.cpp.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/6.cpp.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -404,17 +414,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/7.cpp.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4.cpp.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1305">
+          <caret line="87" column="1" lean-forward="false" selection-start-line="87" selection-start-column="1" selection-end-line="87" selection-end-column="1" />
+          <folding>
+            <element signature="e#413#432#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
