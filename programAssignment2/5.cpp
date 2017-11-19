@@ -10,35 +10,6 @@ at runtime on the command line. The length of the password ,k, will be between
 2 and 10 inclusively. Your program must determine the correct password in
 10!/(10-k)! attempts in order to be evaluated as correct.
 
-//------------------------------------------------------------------
-// Header/Prototype for pass.o
-
-#include <iostream>
-using namespace std;
-
-int pass(char* a);
-// Compares the c_string a to its hidden c_string p.
-// If the same then returns the value 0
-// Else returns the value -1
-
-//-------------------------------------------------------------------
-
-//-------------------------------------------------------------------
-// Simple Driver program to check user guess against password hidden in
-// pass.o (5.cpp)
-
-#include <iostream>
-#include "pass.h"
-using namespace std;
-
-int main(int argc, char* argv[]){
-	if(argc > 1) {
-		if(pass(argv[1])== 0) cout << " Correct password \n" << argv[1] << endl;
-		else cout << "Incorrect password \n";
-	return 0;
-	}
-	return -1;
-}
 
 /-------------------------------------------------------------------
 
@@ -86,3 +57,40 @@ pgm directory.
 This program counts as three regular programs. To be graded, your
 program must be in your pgm and named precisely as 5.cpp.
  */
+
+
+//------------------------------------------------------------------
+// Header/Prototype for pass.o
+
+#include <iostream>
+using namespace std;
+
+int pass(char* a);
+// Compares the c_string a to its hidden c_string p.
+// If the same then returns the value 0
+// Else returns the value -1
+
+//-------------------------------------------------------------------
+
+//-------------------------------------------------------------------
+// Simple Driver program to check user guess against password hidden in
+// pass.o (5.cpp)
+
+#include <iostream>
+#include "pass.h"
+using namespace std;
+
+int main(int argc, char* argv[]){
+	if(argc > 1) {
+		if(pass(argv[1])== 0) cout << " Correct password \n" << argv[1] << endl;
+		else cout << "Incorrect password \n";
+	return 0;
+	}
+	return -1;
+}
+
+int pass(char* a)
+{
+	int k = (int) a;
+
+}
